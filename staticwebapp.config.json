@@ -1,9 +1,5 @@
 {
-  "routes": [
-        {
-            "route": "/login",
-            "serve": "/.auth/login/aad"
-        },
+  "routes": [        
         {
             "route": "/*",
             "serve": "/index.html",
