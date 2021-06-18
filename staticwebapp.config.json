@@ -1,4 +1,17 @@
 {
-  "route": "*",
-  "allowedRoles": ["contributor"]
+  "routes": [
+        {
+            "route": "/login",
+            "serve": "/.auth/login/aad"
+        },
+        {
+            "route": "/*",
+            "serve": "/index.html",
+            "allowedRoles": [
+                "reader",
+                "owner",
+                "contributor"
+            ]
+        }
+    ]
 }
