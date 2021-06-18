@@ -14,5 +14,10 @@
         "redirect": "/.auth/login/aad",
         "statusCode": 302
       }
+    },
+    "networking": {
+      "allowedIpRanges": [
+        "10.172.132.0/26"
+      ]
     }
 }
