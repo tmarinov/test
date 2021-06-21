@@ -3,8 +3,6 @@
         {
             "route": "/*",
             "allowedRoles": [
-                "reader",
-                "owner",
                 "contributor"
             ]
         }    
